@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "lib": [
+            "es6",
+            "es2017",
+            "dom",
+            "scripthost"
+        ],
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "preserveConstEnums": true,
+        "declaration": false,
+        "noImplicitUseStrict": false,
+        "removeComments": true,
+        "noLib": false,
+        "suppressImplicitAnyIndexErrors": true,
+        "noUnusedLocals": true,
+        "strictNullChecks": true,
+        "outDir": "./dist"
+    },
+    "include": [
+        "src/**/*.tsx",
+        "src/**/*.ts"
+    ],
+    "files": [
+        "node_modules/phaser3-docs/typescript/phaser.d.ts"
+    ]
+}
